@@ -1,0 +1,14 @@
+<div class='main-container sidebar-animation'
+      [ngStyle]="{'width.px': generalService.sidebarWidth,
+                  'left.px': generalService.getSidebarWidth() - generalService.sidebarWidth}">
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <img src="img1.jpg" class="rounded" alt="Cinque Terre" style="height: 200px; width : 200px;">
+    </div>
+    <ul class="list components">
+      <li><a href="#">Acceuil</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
