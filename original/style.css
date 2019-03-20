@@ -1,4 +1,8 @@
+/*
+    DEMO STYLE
+*/
 
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -53,6 +57,8 @@ a:focus {
 }
 
 #sidebar {
+    min-width: 250px;
+    max-width: 250px;
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
@@ -150,7 +156,7 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
     }
@@ -160,4 +166,4 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
-} */
+}

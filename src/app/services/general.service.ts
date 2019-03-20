@@ -20,5 +20,4 @@ export class GeneralService {
     return this.sidebarVisible ? this.sidebarWidth : 0;
   }
 
-
 }

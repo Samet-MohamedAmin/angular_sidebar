@@ -19,7 +19,7 @@
 /* custom css */
 /** custom animations **/
 .sidebar-animation {
-    transition-duration: 800ms;
+    transition-duration: 400ms;
     transition-timing-function: ease-in-out;
 }
 
